@@ -65,7 +65,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ## Contact
 
-For any inquiries or support regarding the Dice Game App, please contact:
+For any inquiries or support regarding the Mappy App, please contact:
 
 **_John_**
 
