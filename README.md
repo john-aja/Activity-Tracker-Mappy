@@ -14,7 +14,7 @@ The Mappy website is built using the following technologies:
 
 - **Leaflet API**: Integrated an interactive map API to allow users to select their starting point.
 
-## Features
+## Features 
 
 - **Map Selection**: Upon opening the app, users are presented with a map where they can select the starting point of their activity.
 
