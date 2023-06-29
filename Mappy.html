@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Mappy</title>
+		<link type="text/css" rel="stylesheet" href="MappyCss.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="icon" href="mappyicon.png" />
+
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		/>
+		<script
+			defer
+			src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+		></script>
+
+		<script defer src="Mappyjs.js"></script>
+
+		<body class="body">
+			<div class="first">
+				<div><img class="logo" src="mappylogo.png" /></div>
+				<div class="workouts">
+					<div class="form-input">
+						<form class="form hidden">
+							<div class="form_div">
+								<div class="form__row">
+									<label>Type</label>
+									<select class="form__input--type">
+										<option value="running">Running</option>
+										<option value="cycling">Cycling</option>
+									</select>
+								</div>
+								<div class="form__row">
+									<label>Distance</label>
+									<input
+										class="form__input--distance"
+										type="text"
+										placeholder="km"
+									/>
+								</div>
+							</div>
+							<div class="form_div">
+								<div class="form__row">
+									<label>Duration</label>
+									<input
+										class="form__input--duration"
+										type="text"
+										placeholder="min"
+									/>
+								</div>
+								<div class="form__row">
+									<label>Cadence</label>
+									<input
+										class="form__input--cadence"
+										type="text"
+										placeholder="step/min"
+									/>
+								</div>
+								<div class="form__row form__row--hidden">
+									<label>Elev Gain</label>
+									<input class="form__input--elevation" placeholder="meters" />
+								</div>
+							</div>
+							<button class="form__btn">Submit</button>
+						</form>
+					</div>
+				</div>
+				<div class="copy">
+					<blockquote class="copy-right">
+						© 1995-2021 Ram A. All Rights Reserved. No claim to copyright
+						ownership is made to underlying materials.
+					</blockquote>
+				</div>
+			</div>
+
+			<div id="map"></div>
+		</body>
+	</head>
+</html>
