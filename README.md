@@ -1,6 +1,6 @@
 # Mappy - An Activity Tracker App
 
-![mappy-mock](https://github.com/john-aja/Activity-Tracker-Mappy/assets/95049418/d9766d8d-0f25-4d1a-a3d7-ebdb5d4e2b0e)
+![MAPPY](https://github.com/john-aja/Activity-Tracker-Mappy/assets/95049418/5190a287-92ae-44ec-9d98-e8bdb8913c97)
 
 This is a simple activity tracker app developed using HTML, CSS, and JavaScript. The app allows users to track their activities such as running or cycling, along with additional details like distance, duration, elevation, or cadence. The entered activity data is stored locally in the browser's storage, and the app displays the recorded activities in a sidebar as cards on the map.
 
